@@ -1,0 +1,339 @@
+/* 
+ * CSS RESPONSIVE
+ * Tác giả: Trần Đức Anh
+ * MSSV: A16028
+ * Ngày cập nhật: 2016-12-17 11:39
+ */
+
+
+/* CSS ALL DEVICE */
+@media all {
+	body {
+		font-size: 140%;
+	}
+	
+	/* Trang chủ */
+	#navbar {
+		padding: 0% 2%;
+		border-bottom: 1px solid white;
+	}
+	
+	#container-logo, #company-name, #slogan-container {
+		display: none;
+	}
+	#container-logo {
+		width: 0%;
+	}
+	#container-navbar {
+		width: 100%;
+	}
+	#logo {
+		width: 30px;
+		padding: 10px 0;
+	}
+	
+	.navbar-nav {
+		float: left;
+		margin: 0;
+	}
+	.navbar-right {
+		float: right!important;
+		margin-right: -15px;
+	}
+	.navbar-nav > li {
+		float: left;
+	}
+	.navbar-nav > li > a {
+		padding: 15px 5px;
+	}
+	
+	.prog-post-1by1 {
+		width: 40%;
+		padding-top: 40%;
+		margin: 5%;
+		position: relative;
+		float: left;
+	}
+	.programming-post {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		border: 1px solid #c7c7c7;
+		padding: 5%;
+	}
+	.programming-post > i {
+		font-size: 500%;
+	}
+	
+	/* Trang Contact */
+	.contact-col {
+		width: 100%;
+	}
+}
+
+/* ------- CSS < 320px ------- */
+@media only screen and (max-width: 319px) {
+	
+	/* Trang chủ */
+	#container-navbar {
+		width: 100%;
+	}
+	
+	/* About */
+	.ratio-1by1-content {
+		padding-top: 5%;
+	}
+}
+/* ------- END < 320px ------- */
+
+
+/* ------- CSS >= 320px ------- */
+@media only screen and (min-width: 320px) {
+	
+	/* Trang chủ */
+	body {
+		font-size: 145%;
+	}
+	
+	/* About */
+	.ratio-1by1-container {
+		padding-top: 268px;
+	}
+}
+/* ------- END >= 320px ------- */
+
+
+/* ------- CSS >= 480px ------- */
+@media only screen and (min-width: 480px) {
+	
+	#container-logo {
+		width: 15%;
+	}
+	#container-navbar {
+		width: 85%;
+	}
+	
+	/* Trang chủ */
+	body {
+		font-size: 150%;
+	}
+	
+	#navbar {
+		padding: 2% 5%;
+	}
+	
+	#container-logo {
+		display: block;
+	}
+	
+	.navbar-nav > li > a {
+		padding: 15px 12px;
+	}
+	
+	.programming-post > i {
+		font-size: 700%;
+	}
+	
+	/* About */
+	.ratio-1by1-container {
+		padding-top: 280px;
+	}
+	
+	/* Trang Contact */
+	.contact-col {
+		width: 50%;
+	}
+	.contact-follow-icon > i {
+		font-size: 120%;
+	}
+	.time-open-row > div {
+		width: 25%;
+	}
+}
+/* ------- END >= 480px ------- */
+
+
+/* ------- CSS EXTRA SMALL DEVICE (>= 640px) ------- */
+@media only screen and (min-width: 640px) {
+	
+	#container-logo {
+		width: 27%;
+	}
+	#container-navbar {
+		width: 73%;
+	}
+	
+	#dropdown-lang > li > a {
+		padding: 15px;
+	}
+	#dropdown-lang > li > a > span {
+		display: inline;
+	}
+
+	/* Trang chủ */
+	body {
+		font-size: 160%;
+	}
+	
+	.navbar-nav > li > a {
+		padding: 15px 15px;
+	}
+	
+	#company-name {
+		display: inline;
+	}
+	
+	#slogan-container {
+		display: block;
+	}
+	
+	.prog-post-1by1 {
+		width: 20%;
+		padding-top: 20%;
+		margin: 2.5%;
+	}
+	.programming-post > i {
+		font-size: 500%;
+	}
+	
+	/* About */
+	.ratio-1by1-container {
+		padding-top: 266px;
+	}
+	
+	/* Contact */
+	.contact-follow-icon > i {
+		font-size: 150%;
+	}
+	
+	/* News */
+	.news-post {
+		width: 46.25%;
+	}
+	.news-post:nth-child(odd) {
+		margin: 1.25% 1.25% 1.25% 2.5%;
+	}
+	.news-post:nth-child(even) {
+		margin: 1.25% 2.5% 1.25% 1.25%;
+	}
+}
+/* ------- END EXTRA SMALL DEVICE (>= 640px) ------- */
+
+
+/* ------- CSS SMALL DEVICE (>= 768px) ------- */
+@media only screen and (min-width: 768px) {
+	
+	/* Trang chủ */
+	body {
+		font-size: 170%;
+	}
+	
+	#logo {
+		width: 50px;
+		padding: 0;
+	}
+	
+	/* About */
+	.ratio-1by1-container {
+		padding-top: 350px;
+	}
+	.ratio-1by1-content {
+		display: block;
+	}
+	.about-intro-icon {
+		font-size: 400%;
+	}
+	
+	/* Trang Contact */
+	.contact-col {
+		width: 25%;
+	}
+	
+	#contact-form, #contact-time {
+		width: 45%;
+		margin: 2.5%;
+	}
+	
+	.time-open-row > div {
+		width: 50%;
+	}
+}
+/* ------- END SMALL DEVICE (>= 768px) ------- */
+
+
+/* ------- CSS MEDIUM DEVICE (>= 992px) ------- */
+@media only screen and (min-width: 992px) {
+	
+	.programming-post > i {
+		font-size: 600%;
+	}
+	
+	/* About */
+	.ratio-1by1-container {
+		padding-top: 350px;
+	}
+	
+}
+/* ------- END MEDIUM DEVICE (>= 992px) ------- */
+
+
+/* ------- CSS MEDIUM DEVICE (>= 1024px) ------- */
+@media only screen and (min-width: 992px) {
+	
+	/* About */
+	.ratio-1by1-container {
+		padding-top: 325px;
+	}
+	
+	/* Contact */
+	.contact-follow-icon > i {
+		font-size: 200%;
+	}
+	
+	/* News */
+	.news-post {
+		width: 30%;
+	}
+	.news-post:nth-child(3n-2) {
+		margin: 1.25% 1.25% 1.25% 2.5%;
+	}
+	.news-post:nth-child(3n-1) {
+		margin: 1.25% 1.25% 1.25% 1.25%;
+	}
+	.news-post:nth-child(3n-0) {
+		margin: 1.25% 2.5% 1.25% 1.25%;
+	}
+}
+/* ------- END MEDIUM DEVICE (>= 1024px) ------- */
+
+
+/* ------- CSS LARGE DEVICE (>= 1200px) ------- */
+@media only screen and (min-width: 1200px) {
+	
+	.programming-post > i {
+		font-size: 800%;
+	}
+	
+	/* About */
+	.ratio-1by1-container {
+		padding-top: 100%;
+	}
+	
+	/* Contact */
+	.contact-follow-icon > i {
+		font-size: 300%;
+	}
+	
+	.time-open-row > div {
+		width: 25%;
+	}
+}
+/* ------- END LARGE DEVICE (>= 1200px) ------- */
+

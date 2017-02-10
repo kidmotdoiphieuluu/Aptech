@@ -1,0 +1,628 @@
+/* 
+ * CSS CHUNG
+ * Tác giả: Trần Đức Anh
+ * MSSV: A16028
+ * Ngày cập nhật: 2016-12-17 11:39
+ */
+
+/* CSS NGÔN NGỮ */
+.en:not(:lang(en)), .vi:not(:lang(vi)) {
+	display: none;
+}
+
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	color: #606060;
+}
+p, a {
+	font-size: 0.875em;
+	font-weight: 300;
+}
+h1 {
+	font-size: 2.25em;
+}
+h2 {
+	font-size: 1.875em;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.875em;
+}
+h6 {
+	font-size: 0.75em;
+}
+
+/* ------- CSS HEADER ------- */
+
+#container-header {
+	padding-top: 42%;
+	position: relative;
+}
+#content-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#cover {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: -2;
+}
+#cover-overlay {
+	background: rgba(90, 90, 90, 0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#container-logo {
+	overflow-x: visible;
+    white-space: nowrap;
+}
+#company-name {
+	color: white;
+	font-weight: 400;
+	margin-left: 5%;
+}
+
+.navbar-right > li > a {
+	color: white;
+	font-weight: 400;
+}
+.navbar-right > li:hover {
+	/* border-bottom: 2px solid white; */
+	/* background-color: #00bcd4; */
+	box-shadow: inset 0px 0px 0px 1px #00bcd4;
+	box-sizing: border-box;
+	border-radius: 2%;
+}
+.navbar-right > li > a:hover {
+	background-color: transparent;
+}
+#btn-lang {
+	line-height: 0;
+}
+#dropdown-lang {
+	min-width: 0;
+    padding: 0;
+    margin: 0;
+	position: absolute;
+    float: left;
+    right: 0;
+    left: auto;
+	background-color: transparent;
+	box-shadow: inset 0px 0px 0px 1px #00bcd4;
+	box-sizing: border-box;
+}
+#dropdown-lang > li > a {
+	padding: 10px;
+}
+#dropdown-lang > li > a {
+	color: white;
+}
+#dropdown-lang > li > a:hover {
+	color: black;
+}
+#dropdown-lang > li > a > span {
+	display: none;
+}
+.nav .open > a {
+	color: black;
+}
+
+#slogan-container {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 1%;
+	text-align: center;
+	color: white;
+}
+#slogan-container > a {
+	color: white;
+	font-size: 1.875em;
+}
+#slogan-comp-name {
+	font-size: 300%;
+}
+#slogan-content {
+	font-size: 120%;
+}
+
+#go-top {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 10;
+	
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	border-radius: 50%;
+}
+#go-top > i {
+	vertical-align: middle;
+}
+
+/* ------- KẾT THÚC CSS HEADER ------- */
+
+
+/* ------- CSS NỘI DUNG WEB ------- */
+
+/* NỘI DUNG TRANG CHỦ */
+
+/* CSS bố cục tổng quát */
+.container-description {
+	padding: 2% 0;
+	position: relative;
+	z-index: 2;
+}
+#container-game {
+	padding-top: 3%;
+	padding-bottom: 5%;
+	background-color: white;
+}
+#container-vga {
+	position: relative;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color: white;
+	background-image: url("../img/VGA/vga-wallpaper.jpg");
+	background-size: 100%;
+}
+#container-programming {
+	position: relative;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	/* background-image: url("../img/Programming/programming-wallpaper.jpg");
+	background-size: 100%; */
+}
+
+.descrip-title {
+	margin-top: 1%;
+	font-weight: 400;
+}
+.descrip-content {
+	font-style: italic;
+	font-weight: 300;
+}
+
+/* CSS post game */
+.game-news {
+	padding: 2%;
+}
+.post-ava {
+	width: 100%;
+	border-radius: 5%;
+}
+.post-ava-overlay {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+}
+.post-ava-overlay:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5%;
+    border: 1px dashed black;
+}
+.post-title {
+	font-weight: 400;
+	margin: 1% 0;
+}
+.post-time > i.fa {
+	padding-right: 5px;
+}
+
+/* CSS post VGA */
+#vga-effect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	
+	background-color: rgba(0, 0, 0, 0.25);
+	z-index: 1;
+	
+	transition: background-color 0.75s;
+	-webkit-transition: background-color 0.75s;
+	-moz-transition: background-color 0.75s;
+	-ms-transition: background-color 0.75s;
+	-o-transition: background-color 0.75s;
+}
+
+.vga-row {
+	padding: 2% 4% 2% 4%;
+}
+.vga-post {
+	padding: 0 8%;
+	position: relative;
+	z-index: 2;
+}
+.vga-ava {
+	width: 100%;
+	border: 1px solid white;
+	
+	transition: background-color 0.75s;
+	-webkit-transition: background-color 0.75s;
+	-moz-transition: background-color 0.75s;
+	-ms-transition: background-color 0.75s;
+	-o-transition: background-color 0.75s;
+}
+.vga-ava:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* CSS post programming */
+#programming-effect {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	
+	background-color: rgba(255, 255, 255, 0.65);
+}
+
+.programming-row {
+	padding: 0% 4% 2% 4%;
+}
+.programming-post {
+	padding: 0 8%;
+	text-decoration: none;
+	/* color: #5a5a5a; */
+}
+.programming-post:hover {
+	color: #333333;
+	border-color: #333333;
+}
+.programming-ava {
+	width: 100%;
+	border-radius: 3%;
+}
+
+/* KẾT THÚC NỘI DUNG TRANG CHỦ */
+
+/* NỘI DUNG ABOUT */
+
+#about-intro {
+	padding-top: 3%;
+	padding-bottom: 5%;
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color: white;
+}
+.about-intro-container {
+	padding: 2%;
+}
+.ratio-1by1-container {
+	width: 100%;
+	padding-top: 100%;
+	position: relative;
+}
+.ratio-1by1-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 1px solid #c7c7c7;
+	padding: 10%;
+	
+	display: flex;
+	align-items: center;
+}
+.about-intro-icon {
+	font-size: 500%;
+	margin-bottom: 10px;
+}
+.about-intro-title {
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.about-intro-content {
+	
+}
+
+
+#about-video {
+	padding-top: 3%;
+	padding-bottom: 7%;
+	background-color: #f7f8fa;
+}
+
+.about-video-player {
+	padding: 0 17%;
+}
+
+#about-people {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color: white;
+}
+
+.about-people-container {
+	padding: 2%;
+}
+.about-people-ava {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.about-people-name {
+	font-weight: 400;
+}
+
+/* KẾT THÚC NỘI DUNG ABOUT */
+
+/* NỘI DUNG CONTACT */
+
+#contact-info, #contact-follow, #contact-contact {
+	padding: 4%;
+}
+#contact-contact {
+	background-color: #f7f8fa;
+}
+
+.contact-col {
+	float: left;
+	text-align: center;
+	padding: 2.5% 5%;
+}
+.contact-col .fa {
+	color: #00bcd4;
+	margin-bottom: 5%;
+	font-size: 300%;
+}
+.contact-info-title {
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.contact-follow-ratio-1by1 {
+	position: relative;
+	padding-top: 12%;
+	width: 12%;
+	margin: 4%;
+	float: left;
+}
+.contact-follow-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #00bcd4;
+	border-radius: 50%;
+}
+.contact-follow-icon:hover {
+	border: 1px solid #ffcb0a;
+}
+.contact-follow-icon > i {
+	color: #00bcd4;
+}
+.contact-follow-icon:hover > i {
+	color: #ffcb0a;
+}
+
+#contact-form, #contact-time, #google-map {
+	width: 95%;
+	height: 550px;
+	margin: 2.5%;
+	padding: 3%;
+	background-color: white;
+	float: left;
+}
+.contact-contact-title {
+	font-weight: 300;
+}
+
+#contact-form .form-control {
+	box-shadow: none;
+	background-color: #f7f8fa;
+	font-weight: 300;
+	
+	height: 9%;
+	margin: 1.5% 2.5%;
+	float: left;
+}
+#fname, #lname, #errMsg-fname, #errMsg-lname {
+	width: 45%;
+}
+#address {
+	width: 95%;
+}
+#phone, #errMsg-phone {
+	width: 25%;
+}
+#email, #errMsg-email {
+	width: 65%;
+}
+#message {
+	width: 95%;
+	height: 33%!important;
+	resize: none;
+}
+#errMsg-message {
+	width: 95%;
+}
+#cke_message {
+	width: 95%;
+	height: 33%;
+	margin: 1.5% 2.5%;
+	box-shadow: 0px 0px 0px 1px #ccc;
+	border: none;
+    border-radius: 4px;
+	float: left;
+}
+.cke_inner {
+	height: 100%!important;
+}
+#cke_1_top {
+	height: 18%!important;
+	padding: 0.3157% 2%;
+}
+#cke_1_contents {
+	height: 79%!important;
+}
+.cke_wysiwyg_frame > html > body > p {
+	margin: 0;
+	color: red;
+}
+#submit {
+	min-width: 85px;
+	width: 20%;
+	border: 1px solid #00bcd4;
+	border-radius: 0;
+	background-color: #00bcd4!important;
+	color: white;
+}
+#submit:hover {
+	background-color: white!important;
+	color: #00bcd4;
+}
+
+.errMsg {
+	height: 12px;
+	font-size: 70%;
+	color: red;
+	float: left;
+	margin: -8px 2.5% 0 2.5%;
+}
+
+.contact-contact-title, .contact-contact-time-descrip {
+	margin: 2.5%;
+}
+.time-open-row {
+	padding: 2.5%;
+}
+.day-open {
+	line-height: 2.85;
+	background-color: #00bcd4!important;
+	color: white;
+}
+
+/* KẾT THÚC NỘI DUNG CONTACT */
+
+/* NỘI DUNG NEWS */
+
+#news {
+	background-color: rgb(247, 248, 250);
+}
+
+#news-container {
+	padding: 5% 0;
+}
+.news-post {
+	float: left;
+	width: 90%;
+	margin: 2.5% 5%;
+	text-align: center;
+	background-color: white;
+	box-shadow: 2px 4px 7px 2px #eff1f8;
+	font-style: italic;
+}
+.news-post-header {
+	padding: 3% 2%;
+}
+.news-post-header > p {
+	margin: 10px 0;
+}
+.news-post-header > span {
+	display: inline-flex;
+	align-items: center;
+}
+.news-post-header > span > i {
+	font-size: 100%;
+}
+.news-post-header > span:before, .news-post-header > span:after {
+	display: inline-block;
+    width: 30px;
+    height: 1px;
+    margin: 0 10px;
+	background-color: #34343c;
+    content: " ";
+}
+.news-post-header > a, .news-post-category > a {
+	text-decoration: none;
+	color: #606060;
+}
+.news-post-header > a:hover, .news-post-category > a:hover {
+	color: #00bcd4;
+}
+.news-post > a > img {
+	height: 200px;
+    object-fit: cover;
+}
+.news-post-footer > p {
+	margin: 10px 0;
+}
+
+/* KẾT THÚC NỘI DUNG NEWS */
+
+/* ------- KẾT THÚC CSS NỘI DUNG WEB ------- */
+
+
+/* ------- CSS FOOTER ------- */
+
+#container-footer {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.85);
+	padding: 3% 5% 10px 5%;
+}
+
+.footer-title {
+	margin-bottom: 17px;
+	padding: 15px;
+	color: white;
+	background-color: #171717;
+	font-weight: 400;
+}
+.footer-content {
+	padding: 0 15px;
+	color: #c7c7c7;
+	line-height: 1.75;
+}
+.footer-content > p > a {
+	color: #00bcd4;
+}
+
+.icon-info, .icon-social, .icon-useful-link {
+	margin-right: 5px;
+	width: 15px;
+}
+
+#copyright {
+	border-top: 1px solid gray;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+/* ------- KẾT THÚC CSS FOOTER ------- */

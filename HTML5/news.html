@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta tag -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="img/news-icon.png" size="32x32">
+		<title>News - TechNews</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/fontawesome/font-awesome.min.css" type="text/css" rel="stylesheet" />
+		
+		<!-- CSS -->
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="css/responsive.css" type="text/css" rel="stylesheet" />
+		
+		<!-- FONT -->
+		<link href="css/roboto/roboto.css" type="text/css" rel="stylesheet" />
+		<link href="css/devicon/devicon.css" type="text/css" rel="stylesheet" />
+		
+		<!-- jQuery -->
+		<script src="js/jquery-3.1.1.js"></script>
+		<!-- JavaScript -->
+		<script src="js/effect.js"></script>
+		<script src="js/function.js"></script>
+		
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header id="top">
+			<div id="container-header">
+				<div id="content-header">
+					<img src="img/news-cover.png" id="cover" />
+					<div id="cover-overlay"></div>
+					
+					<div class="container-fluid">
+						<div id="navbar" class="row">
+							<div id="container-logo" class="col-xs-3 col-sm-4">
+								<img src="img/news-logo.png" id="logo" />
+								<span id="company-name" >TECHNEWS</span>
+							</div>
+							<div id="container-navbar" class="col-xs-9 col-sm-8 pull-right">
+								<ul class="nav navbar-nav navbar-right">
+									<li>
+										<a href="index.html" class="en">HOME</a>
+										<a href="index.html" class="vi"><i class="fa fa-home" aria-hidden="true"></i></a>
+									</li>
+									<li>
+										<a href="news.html" class="en">NEWS</a>
+										<a href="news.html" class="vi">TIN TỨC</a>
+									</li>
+									<li>
+										<a href="about.html" class="en">ABOUT</a>
+										<a href="about.html" class="vi">GIỚI THIỆU</a>
+									</li>
+									<li>
+										<a href="contact.html" class="en">CONTACT</a>
+										<a href="contact.html" class="vi">LIÊN HỆ</a>
+									</li>
+									<li class="dropdown">
+										<a id="btn-lang" class="dropdown-toggle" data-toggle="dropdown" href="#">
+											<img src="img/flag-en.png" width="20px" />
+											<span class="caret" style="margin-left: 5px;"></span>
+										</a>
+										<ul id="dropdown-lang" class="dropdown-menu">
+											<li>
+												<a href="javascript:changeLang('en');" class="lang-opt">
+													<img src="img/flag-en.png" width="20px" /><span>&nbsp;&nbsp; en-US</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:changeLang('vi');" class="lang-opt">
+													<img src="img/flag-vi.png" width="20px" /><span>&nbsp;&nbsp; vi-VN</span>
+												</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="slogan-container" class="row">
+							<p id="slogan-comp-name">TECHNEWS</p>
+							<p id="slogan-content" class="en">Exactly - Quickly - Honestly</p>
+							<p id="slogan-content" class="vi">Chính xác - Nhanh chóng - Trung thực</p>
+							
+							<a href="#news" title="Click to view newest news" class="en">
+								<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+							</a>
+							<a href="#news" title="Click để xem các tin tức mới" class="vi">
+								<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<a id="go-top" href="#top">
+				<i class="fa fa-arrow-up" aria-hidden="true"></i>
+			</a>
+		</header>
+		<!-- KẾT THÚC HEADER -->
+		
+		<!-- NỘI DUNG WEB -->
+		
+		<div id="news" class="container-fluid">
+			<div id="news-container" class="row">
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Game Offline</a> / <a href="#">Assassin's Creed</a></p>
+						<span><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Assassin's Creed Syndicate</h4></a>
+					</div>
+					<a href="#"><img src="img/Game/ACS/acs-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;15/10/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Ubisoft
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Programming</a> / <a href="#">C</a></p>
+						<span><i class="fa fa-code" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Thư viện trong C</h4></a>
+					</div>
+					<a href="#"><img src="img/Programming/C/c-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;02/10/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;StackOverflow
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">VGA</a> / <a href="#">NVIDIA</a></p>
+						<span><i class="fa fa-television" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">NVIDIA GeForce GTX 1070</h4></a>
+					</div>
+					<a href="#"><img src="img/VGA/NVIDIA/nvidia-gtx-1070.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;26/09/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;NVIDIA
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Programming</a> / <a href="#">Python</a></p>
+						<span><i class="fa fa-code" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Class trong Python</h4></a>
+					</div>
+					<a href="#"><img src="img/Programming/Python/python-ava.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;14/09/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;CodeFights
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Programming</a> / <a href="#">HTML5</a></p>
+						<span><i class="fa fa-code" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Giới thiệu về HTML5</h4></a>
+					</div>
+					<a href="#"><img src="img/Programming/HTML5/html5-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;07/09/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;CodeFights
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Game Offline</a> / <a href="#">Watch Dogs 2</a></p>
+						<span><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Cấu hình yêu cầu WD2</h4></a>
+					</div>
+					<a href="#"><img src="img/Game/WD2/wd2-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;31/08/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Ubisoft
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">VGA</a> / <a href="#">AMD</a></p>
+						<span><i class="fa fa-television" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">AMD Radeon R9 280X</h4></a>
+					</div>
+					<a href="#"><img src="img/VGA/AMD/amd-radeon-r9-280x.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;23/08/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;AMD
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Game Offline</a> / <a href="#">Assassin's Creed</a></p>
+						<span><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Assassin's Creed Unity</h4></a>
+					</div>
+					<a href="#"><img src="img/Game/ACU/acu-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;19/08/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Ubisoft
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">VGA</a> / <a href="#">NVIDIA</a></p>
+						<span><i class="fa fa-television" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">NVIDIA GeForce GTX 980</h4></a>
+					</div>
+					<a href="#"><img src="img/VGA/NVIDIA/nvidia-gtx-980.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;12/08/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;NVIDIA
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">VGA</a> / <a href="#">AMD</a></p>
+						<span><i class="fa fa-television" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">AMD Radeon R7 260</h4></a>
+					</div>
+					<a href="#"><img src="img/VGA/AMD/amd-radeon-r7-260.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;05/08/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;AMD
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Programming</a> / <a href="#">C++</a></p>
+						<span><i class="fa fa-code" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Truyền tham số trong C++</h4></a>
+					</div>
+					<a href="#"><img src="img/Programming/C++/c++-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;24/07/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;StackOverflow
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Game Offline</a> / <a href="#">Watch Dogs</a></p>
+						<span><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Ngày phát hành Watch Dogs</h4></a>
+					</div>
+					<a href="#"><img src="img/Game/WD/wd-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;15/07/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Ubisoft
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Programming</a> / <a href="#">Java</a></p>
+						<span><i class="fa fa-code" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Build Java bằng lệnh CMD</h4></a>
+					</div>
+					<a href="#"><img src="img/Programming/Java/java-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;09/07/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;CodeFights
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Programming</a> / <a href="#">Coffee Script</a></p>
+						<span><i class="fa fa-code" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Coffee Script là gì?</h4></a>
+					</div>
+					<a href="#"><img src="img/Programming/CoffeeScript/cs-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;28/06/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;StackOverflow
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">VGA</a> / <a href="#">NVIDIA</a></p>
+						<span><i class="fa fa-television" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">NVIDIA GeForce GTX 400</h4></a>
+					</div>
+					<a href="#"><img src="img/VGA/NVIDIA/nvidia-gtx-400.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;21/06/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;NVIDIA
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">VGA</a> / <a href="#">AMD</a></p>
+						<span><i class="fa fa-television" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">AMD Radeon 6850</h4></a>
+					</div>
+					<a href="#"><img src="img/VGA/AMD/amd-radeon-6850.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;16/06/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;AMD
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Game Offline</a> / <a href="#">Prince of Persia</a></p>
+						<span><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">POP3 đang được phát triển</h4></a>
+					</div>
+					<a href="#"><img src="img/Game/POP3/pop3-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;08/06/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Ubisoft
+						</p>
+					</div>
+				</div>
+				
+				<div class="news-post">
+					<div class="news-post-header">
+						<p class="news-post-category"><a href="#">Game Offline</a> / <a href="#">Prince of Persia</a></p>
+						<span><i class="fa fa-code" aria-hidden="true"></i></span>
+						<a href="#"><h4 class="news-post-title">Ra mắt Prince of Persia 1</h4></a>
+					</div>
+					<a href="#"><img src="img/Game/POP1/pop1-post.jpg" width="100%" /></a>
+					<div class="news-post-footer">
+						<p>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;29/05/2016
+							- 
+							<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Ubisoft
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!-- KẾT THÚC NỘI DUNG WEB -->
+		
+		<!-- FOOTER -->
+		<footer>
+			<div id="container-footer" class="container-fluid">
+				<div class="row">
+					<!-- Thông tin liên hệ -->
+					<div class="col-md-5">
+						<h4 class="footer-title en">CONTACT INFORMATION</h4>
+						<h4 class="footer-title vi">THÔNG TIN LIÊN HỆ</h4>
+						<div class="footer-content">
+							<p>
+								<i class="icon-info fa fa-building-o" aria-hidden="true"></i>
+								<span class="en">TechNews Company</span>
+								<span class="vi">Công ty TNHH MTV TechNews</span>
+							</p>
+							<p>
+								<i class="icon-info fa fa-map-marker" aria-hidden="true"></i>
+								<span class="en"><b>Address:</b> <i>436 Cao Thang, P12, Q10, TPHCM</i></span>
+								<span class="vi"><b>Địa chỉ:</b> <i>436 Cao Thắng, P12, Q10, TPHCM</i></span>
+							</p>
+							<p>
+								<i class="icon-info fa fa-phone" aria-hidden="true"></i>
+								<span class="en"><b>Phone:</b> <i>08 8244 5599 – 0909 909 909</i></span>
+								<span class="vi"><b>ĐT:</b> <i>08 8244 5599 – 0909 909 909</i></span>
+							</p>
+							<p>
+								<i class="icon-info fa fa-fax" aria-hidden="true"></i>
+								<b>Fax:</b> <i>+84 710 847 5496</i>
+							</p>
+							<p>
+								<i class="icon-info fa fa-envelope-o" aria-hidden="true"></i>
+								<b>Email:</b> <i>admin@TechNews.com</i>
+							</p>
+						</div>
+					</div>
+					
+					<!-- Follow us -->
+					<div class="col-md-4">
+						<h4 class="footer-title en">FOLLOW US</h4>
+						<h4 class="footer-title vi">MẠNG XÃ HỘI</h4>
+						<div class="footer-content">
+							<p>
+								<i class="icon-social fa fa-facebook-square" aria-hidden="true"></i>
+								<a href="https://www.facebook.com/TechNews" title="Facebook page" target="_blank">Facebook page</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-twitter-square" aria-hidden="true"></i>
+								<a href="https://twitter.com/TechNews" title="Twitter" target="_blank">Twitter</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-youtube-square" aria-hidden="true"></i>
+								<a href="https://www.youtube.com/channel/UCpRjAzIX9BDYv4ISRpOs4QA" title="Youtube channel" target="_blank">Youtube channel</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-instagram" aria-hidden="true"></i>
+								<a href="https://www.instagram.com/TechNews" title="Instagram" target="_blank">Instagram</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-linkedin-square" aria-hidden="true"></i>
+								<a href="https://www.linkedin.com/TechNews" title="LinkedIn" target="_blank">LinkedIn</a>
+							</p>
+						</div>
+					</div>
+					
+					<!-- Website hữu ích -->
+					<div class="col-md-3">
+						<h4 class="footer-title en">LINKS</h4>
+						<h4 class="footer-title vi">LIÊN KẾT</h4>
+						<div class="footer-content">
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="https://www.ubisoft.com" title="Ubisoft Company: Công ty chuyên sản xuất game của Pháp" target="_blank">Ubisoft Company</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="http://www.nvidia.com/" title="NVIDIA: Công ty sản xuất card đồ họa của Mỹ" target="_blank">NVIDIA</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="http://www.amd.com/" title="AMD: Công ty sản xuất card đồ họa của Mỹ" target="_blank">AMD</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="http://stackoverflow.com" title="StackOverflow: Cộng đồng trao đổi hỏi đáp về các ngôn ngữ lập trình" target="_blank">StackOverflow</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="https://codefights.com/" title="CodeFights: Rèn luyện kỹ năng code và tư duy giải thuật" target="_blank">CodeFights</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row text-center" id="copyright">
+					<span style="font-size: 0.8em;"><i>Copyright &copy; [A16028 - Trần Đức Anh] 2016</i></span>
+				</div>
+			</div>
+		</footer>
+		<!-- KẾT THÚC FOOTER -->
+		
+	</body>
+</html>

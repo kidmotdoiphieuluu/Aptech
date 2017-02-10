@@ -1,0 +1,138 @@
+﻿1
+00:00:00 --> 00:00:09
+Do mic không tốt lắm nên chất lượng âm thanh kém
+Mình làm sub để bổ sung thêm
+
+2
+00:00:10 --> 00:00:17
+Web của mình hỗ trợ hai ngôn ngữ
+là tiếng Việt và tiếng Anh
+
+3
+00:00:18 --> 00:00:24
+Khi các bạn chọn tiếng Việt thì các mục
+tiêu đề và giới thiệu sẽ là tiếng Việt
+
+4
+00:00:25 --> 00:00:30
+Còn khi chọn tiếng Anh thì nó sẽ là tiếng Anh
+Nhưng các nội dung bài viết thì vẫn là tiếng Việt
+
+5
+00:00:31 --> 00:00:35
+Tại vì web mình hướng đến người dùng Việt Nam
+Nên các bài viết lúc nào cũng là tiếng Việt
+
+6
+00:00:36 --> 00:00:45
+Khi bạn chọn ngôn ngữ, thì cho dù bạn chuyển đến các trang khác
+trong cùng website nó vẫn giữ nguyên ngôn ngữ đó cho bạn
+
+7
+00:00:46 --> 00:00:54
+Điểm mạnh thứ hai là trang web của mình
+hỗ trợ rất nhiều thiết bị
+
+8
+00:00:55 --> 00:00:58
+Các bạn có thể xem ở công cụ debug của Chrome
+
+9
+00:00:59 --> 00:01:02
+Thử trên iPhone 4 này...
+
+10
+00:01:03 --> 00:01:07
+Nó sẽ không bị vỡ bố cục
+
+11
+00:01:08 --> 00:01:11
+Xoay ngang này...
+
+12
+00:01:12 --> 00:01:19
+Các font chữ cũng có độ lớn vừa phải
+
+13
+00:01:20 --> 00:01:27
+Không quá nhỏ để người dùng
+trên điện thoại có thể xem được
+
+14
+00:01:28 --> 00:01:32
+Các thiết bị khác cũng được hỗ trợ rất nhiều nhé
+
+15
+00:01:33 --> 00:01:52
+Các bạn có thể kéo chỉnh gì đó tùy
+Bất kỳ kích thước nào cũng đều hiển thị tốt
+
+16
+00:01:57 --> 00:02:03
+Điểm mạnh tiếp theo là phần liên hệ
+
+17
+00:02:04 --> 00:02:07
+Mình có bắt lỗi khi người dùng nhập form liên hệ
+
+18
+00:02:08 --> 00:02:10
+Ví dụ như tên thì không được nhập số trong đó
+
+19
+00:02:11 --> 00:02:16
+Ví dụ nhập thử tên có số 3 trong đó
+Thì nó sẽ báo lỗi không được nhập số trong tên
+
+20
+00:02:17 --> 00:02:22
+Còn cái ô Last name thì không được để trống này
+Những cái được đánh dấu sao là quan trọng không được bỏ trống
+
+21
+00:02:23 --> 00:02:31
+Và nhất là nội dung thư liên hệ của bạn
+phải trên 10 ký tự mới được chấp nhận nhé
+
+22
+00:02:32 --> 00:02:38
+Bạn có thể chuyển sang tiếng Việt để đọc những báo lỗi này
+
+23
+00:02:39 --> 00:02:46
+Còn một cái nữa là cái bản đồ chỉ đường
+Khi bạn offline thì nó sẽ là một tấm ảnh
+
+24
+00:02:47 --> 00:02:57
+Còn khi bạn online thì nó sẽ là một cái Google Map
+
+25
+00:03:03 --> 00:03:08
+Khi offline thì nó sẽ là tấm hình
+Khi online thì nó sẽ là Google Map
+
+26
+00:03:09 --> 00:03:12
+Còn một trang nữa là trang tin tức
+
+27
+00:03:13 --> 00:03:16
+Trang tin tức thì cũng không có gì đặc biệt lắm
+
+28
+00:03:17 --> 00:03:28
+Do là thời gian không có nhiều nên đáng lẽ trang tin tức sẽ còn dài xuống dưới nữa và ở đây sẽ có một cái nút xem thêm, bạn bấm thì nó sẽ load thêm các bài viết khác, nhưng mình chưa làm chức năng này.
+
+29
+00:03:29 --> 00:03:39
+Ở đây có rất nhiều bài viết, và khi bạn bấm vào bài viết nào thì nó sẽ chuyển đến cái trang riêng của bài viết đó. Ngoài ra nếu bạn bấm vào các phân loại ở trên (NVIDIA / Programming / C++...) thì web sẽ chuyển bạn đến trang có các bài viết thuộc phân nhóm đó.
+
+30
+00:03:40 --> 00:03:46
+Nhưng do yêu cầu của đề chỉ làm 3 trang và mình cũng
+không có thời gian nên mình chỉ dừng lại ở đây thôi
+
+31
+00:03:47 --> 00:03:49
+Cảm ơn các bạn đã theo dõi

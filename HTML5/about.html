@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta tag -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="img/news-icon.png" size="32x32">
+		<title>About - TechNews</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/fontawesome/font-awesome.min.css" rel="stylesheet" />
+		
+		<!-- CSS -->
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="css/responsive.css" type="text/css" rel="stylesheet" />
+		
+		<!-- FONT -->
+		<link href="css/roboto/roboto.css" type="text/css" rel="stylesheet" />
+		<link href="css/devicon/devicon.css" type="text/css" rel="stylesheet" />
+		
+		<!-- jQuery -->
+		<script src="js/jquery-3.1.1.js"></script>
+		<!-- JavaScript -->
+		<script src="js/effect.js"></script>
+		<script src="js/function.js"></script>
+		
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header id="top">
+			<div id="container-header">
+				<div id="content-header">
+					<img src="img/news-cover.png" id="cover" />
+					<div id="cover-overlay"></div>
+					
+					<div class="container-fluid">
+						<div id="navbar" class="row">
+							<div id="container-logo" class="col-xs-3 col-sm-4">
+								<img src="img/news-logo.png" id="logo" />
+								<span id="company-name" >TECHNEWS</span>
+							</div>
+							<div id="container-navbar" class="col-xs-9 col-sm-8 pull-right">
+								<ul class="nav navbar-nav navbar-right">
+									<li>
+										<a href="index.html" class="en">HOME</a>
+										<a href="index.html" class="vi"><i class="fa fa-home" aria-hidden="true"></i></a>
+									</li>
+									<li>
+										<a href="news.html" class="en">NEWS</a>
+										<a href="news.html" class="vi">TIN TỨC</a>
+									</li>
+									<li>
+										<a href="about.html" class="en">ABOUT</a>
+										<a href="about.html" class="vi">GIỚI THIỆU</a>
+									</li>
+									<li>
+										<a href="contact.html" class="en">CONTACT</a>
+										<a href="contact.html" class="vi">LIÊN HỆ</a>
+									</li>
+									<li class="dropdown">
+										<a id="btn-lang" class="dropdown-toggle" data-toggle="dropdown" href="#">
+											<img src="img/flag-en.png" width="20px" />
+											<span class="caret" style="margin-left: 5px;"></span>
+										</a>
+										<ul id="dropdown-lang" class="dropdown-menu">
+											<li>
+												<a href="javascript:changeLang('en');" class="lang-opt">
+													<img src="img/flag-en.png" width="20px" /><span>&nbsp;&nbsp; en-US</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:changeLang('vi');" class="lang-opt">
+													<img src="img/flag-vi.png" width="20px" /><span>&nbsp;&nbsp; vi-VN</span>
+												</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="slogan-container" class="row">
+							<p id="slogan-comp-name">TECHNEWS</p>
+							<p id="slogan-content" class="en">Exactly - Quickly - Honestly</p>
+							<p id="slogan-content" class="vi">Chính xác - Nhanh chóng - Trung thực</p>
+							
+							<a href="#about-body" title="Click to view about us" class="en">
+								<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+							</a>
+							<a href="#about-body" title="Click để xem giới thiệu về công ty" class="vi">
+								<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<a id="go-top" href="#top">
+				<i class="fa fa-arrow-up" aria-hidden="true"></i>
+			</a>
+		</header>
+		<!-- KẾT THÚC HEADER -->
+		
+		<!-- NỘI DUNG ABOUT -->
+		
+		<div id="about-body" class="container-fluid">
+			
+			<!-- Sơ lược về các mảng hoạt động của trang web -->
+			<div id="about-intro" class="row">
+				<div class="container-description text-center">
+					<h1 class="descrip-title en">Introduction</h1>
+					<h1 class="descrip-title vi">Giới thiệu</h1>
+					<h4 class="descrip-content en">TechNews is the fastest update and the most accuracy news website</h4>
+					<h4 class="descrip-content vi">TechNews tự hào là nơi cập nhật tin tức nhanh nhất, chính xác nhất</h4>
+				</div>
+				
+				<!-- Mảng game offline -->
+				<div class="col-sm-4 about-intro-container">
+					<div class="ratio-1by1-container">
+						<div class="ratio-1by1-content">
+							<div class="about-intro-content">
+								<i class="fa fa-gamepad about-intro-icon" aria-hidden="true"></i>
+								<h4 class="about-intro-title">Game Offline</h4>
+								<p class="about-intro-descrip en">
+									Assassin's Creed, Watch Dogs, Prince of Persia,... and others famous series game offline of Ubisoft, we update all of them everyday (in fact, every second).
+								</p>
+								<p class="about-intro-descrip vi">
+									Assassin's Creed, Watch Dogs, Prince of Persia,... và một số tựa game offline nổi tiếng khác của Ubisoft, tất cả đều được chúng tôi cập nhật liên tục khi có tin tức mới nhất.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Mảng card đồ họa -->
+				<div class="col-sm-4 about-intro-container">
+					<div class="ratio-1by1-container">
+						<div class="ratio-1by1-content">
+							<div class="about-intro-content">
+								<i class="fa fa-television about-intro-icon" aria-hidden="true"></i>
+								<h4 class="about-intro-title en">Video Graphics Adaptor</h4>
+								<h4 class="about-intro-title vi">Card đồ họa</h4>
+								<p class="about-intro-descrip en">
+									Our Technical staff will help you deep understand about video graphics adaptor, then you can have true choice by yourself when you decide to buy a VGA.
+								</p>
+								<p class="about-intro-descrip vi">
+									Đội ngũ kỹ thuật viên của TechNews sẽ giúp các bạn am hiểu hơn về card đồ họa, từ đó đưa ra được những quyết định chọn mua card đồ họa đáp ứng đúng nhu cầu của các bạn.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Mảng lập trình -->
+				<div class="col-sm-4 about-intro-container">
+					<div class="ratio-1by1-container">
+						<div class="ratio-1by1-content">
+							<div class="about-intro-content">
+								<i class="fa fa-code about-intro-icon" aria-hidden="true"></i>
+								<h4 class="about-intro-title en">Programming</h4>
+								<h4 class="about-intro-title vi">Lập trình</h4>
+								<p class="about-intro-descrip en">
+									We also provide many popular programming languages knowledge to help people learn basic skills, then they can study by themself.
+								</p>
+								<p class="about-intro-descrip vi">
+									Ngoài ra, TechNews còn cung cấp kiến thức về lập trình giúp các bạn đam mê Công nghệ thông tin có một nền tảng ban đầu vững chắc để tự mình tìm tòi học hỏi thêm trong lĩnh vực này.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Video giới thiệu về trang web -->
+			<div id="about-video" class="row text-center">
+				<div class="container-description text-center">
+					<h1 class="descrip-title en">Quick Tour</h1>
+					<h1 class="descrip-title vi">Tham quan website</h1>
+					<h4 class="descrip-content en">Our website very comfortable and optimized for reader</h4>
+					<h4 class="descrip-content vi">Với hệ thống website cực kỳ thân thiện, tối ưu hóa hướng đến người dùng</h4>
+				</div>
+				<div class="about-video-player">
+					<div class="embed-responsive embed-responsive-16by9">
+						<video src="video/quick-tour.mp4" type="video/mp4" width="100%" height="100%" controls style="border: 1px solid #a7a7a7">
+							<span class="en">Your browser not support HTML5 video tag.</span>
+							<span class="vi">Trình duyệt của bạn không hỗ trợ xem video trực tiếp bằng HTML5.</span>
+						</video>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Đội ngũ lãnh đạo và nhân viên -->
+			<div id="about-people" class="row text-center">
+				<div class="container-description text-center">
+					<h1 class="descrip-title en">Meet The People</h1>
+					<h1 class="descrip-title vi">Đội ngũ nhân viên</h1>
+					<h4 class="descrip-content en">The leaders are very experienced and employees are active with youthful enthusiasm</h4>
+					<h4 class="descrip-content vi">Đội ngũ lãnh đạo dày dặn kinh nghiệm cùng dàn nhân viên trẻ trung năng động đầy nhiệt huyết</h4>
+				</div>
+				<div class="col-xs-6 col-sm-3 about-people-container">
+					<img src="img/about/director.jpg" class="about-people-ava" />
+					<h4 class="about-people-name">Steve Jobs</p>
+					<p class="en"><i>CEO</i></p>
+					<p class="vi"><i>Giám đốc</i></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 about-people-container">
+					<img src="img/about/marketing.jpg" class="about-people-ava" />
+					<h4 class="about-people-name">Bill Gate</p>
+					<p class="en"><i>Marketing</i></p>
+					<p class="vi"><i>Quảng bá</i></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 about-people-container">
+					<img src="img/about/developer.jpg" class="about-people-ava" />
+					<h4 class="about-people-name">Anonymous</p>
+					<p class="en"><i>Developer</i></p>
+					<p class="vi"><i>Phát triển</i></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 about-people-container">
+					<img src="img/about/support.jpg" class="about-people-ava" />
+					<h4 class="about-people-name">Kha Ngan</p>
+					<p class="en"><i>Support</i></p>
+					<p class="vi"><i>Hỗ trợ</i></p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- KẾT THÚC NỘI DUNG ABOUT -->
+		
+		<!-- FOOTER -->
+		<footer>
+			<div id="container-footer" class="container-fluid">
+				<div class="row">
+					<!-- Thông tin liên hệ -->
+					<div class="col-md-5">
+						<h4 class="footer-title en">CONTACT INFORMATION</h4>
+						<h4 class="footer-title vi">THÔNG TIN LIÊN HỆ</h4>
+						<div class="footer-content">
+							<p>
+								<i class="icon-info fa fa-building-o" aria-hidden="true"></i>
+								<span class="en">TechNews Company</span>
+								<span class="vi">Công ty TNHH MTV TechNews</span>
+							</p>
+							<p>
+								<i class="icon-info fa fa-map-marker" aria-hidden="true"></i>
+								<span class="en"><b>Address:</b> <i>436 Cao Thang, P12, Q10, TPHCM</i></span>
+								<span class="vi"><b>Địa chỉ:</b> <i>436 Cao Thắng, P12, Q10, TPHCM</i></span>
+							</p>
+							<p>
+								<i class="icon-info fa fa-phone" aria-hidden="true"></i>
+								<span class="en"><b>Phone:</b> <i>08 8244 5599 – 0909 909 909</i></span>
+								<span class="vi"><b>ĐT:</b> <i>08 8244 5599 – 0909 909 909</i></span>
+							</p>
+							<p>
+								<i class="icon-info fa fa-fax" aria-hidden="true"></i>
+								<b>Fax:</b> <i>+84 710 847 5496</i>
+							</p>
+							<p>
+								<i class="icon-info fa fa-envelope-o" aria-hidden="true"></i>
+								<b>Email:</b> <i>admin@TechNews.com</i>
+							</p>
+						</div>
+					</div>
+					
+					<!-- Follow us -->
+					<div class="col-md-4">
+						<h4 class="footer-title en">FOLLOW US</h4>
+						<h4 class="footer-title vi">MẠNG XÃ HỘI</h4>
+						<div class="footer-content">
+							<p>
+								<i class="icon-social fa fa-facebook-square" aria-hidden="true"></i>
+								<a href="https://www.facebook.com/TechNews" title="Facebook page" target="_blank">Facebook page</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-twitter-square" aria-hidden="true"></i>
+								<a href="https://twitter.com/TechNews" title="Twitter" target="_blank">Twitter</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-youtube-square" aria-hidden="true"></i>
+								<a href="https://www.youtube.com/channel/UCpRjAzIX9BDYv4ISRpOs4QA" title="Youtube channel" target="_blank">Youtube channel</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-instagram" aria-hidden="true"></i>
+								<a href="https://www.instagram.com/TechNews" title="Instagram" target="_blank">Instagram</a>
+							</p>
+							<p>
+								<i class="icon-social fa fa-linkedin-square" aria-hidden="true"></i>
+								<a href="https://www.linkedin.com/TechNews" title="LinkedIn" target="_blank">LinkedIn</a>
+							</p>
+						</div>
+					</div>
+					
+					<!-- Website hữu ích -->
+					<div class="col-md-3">
+						<h4 class="footer-title en">LINKS</h4>
+						<h4 class="footer-title vi">LIÊN KẾT</h4>
+						<div class="footer-content">
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="https://www.ubisoft.com" title="Ubisoft Company: Công ty chuyên sản xuất game của Pháp" target="_blank">Ubisoft Company</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="http://www.nvidia.com/" title="NVIDIA: Công ty sản xuất card đồ họa của Mỹ" target="_blank">NVIDIA</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="http://www.amd.com/" title="AMD: Công ty sản xuất card đồ họa của Mỹ" target="_blank">AMD</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="http://stackoverflow.com" title="StackOverflow: Cộng đồng trao đổi hỏi đáp về các ngôn ngữ lập trình" target="_blank">StackOverflow</a>
+							</p>
+							<p>
+								<i class="icon-useful-link fa fa-link" aria-hidden="true"></i>
+								<a href="https://codefights.com/" title="CodeFights: Rèn luyện kỹ năng code và tư duy giải thuật" target="_blank">CodeFights</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row text-center" id="copyright">
+					<span style="font-size: 0.8em;"><i>Copyright &copy; [A16028 - Trần Đức Anh] 2016</i></span>
+				</div>
+			</div>
+		</footer>
+		<!-- KẾT THÚC FOOTER -->
+		
+	</body>
+</html>
